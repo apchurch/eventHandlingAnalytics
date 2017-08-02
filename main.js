@@ -35,13 +35,15 @@ $(document).ready(function(){
 
 	
 	var vowels = ['a', 'e', 'i', 'o','u']
-	$('textarea').on('keyup', function(number){
-			
-				console.log($(true))
+	$('textarea').on('keyup', function(){
 		
+		console.log(this)
+				
+		})
+
 			
 
-	})
+
     // var start
     // Date.getTime = function(){
     // 	for(i = 0; i < Date; i++)
@@ -97,6 +99,15 @@ $(document).ready(function(){
 	$('#textBlock2').hover(function(){
 		console.log('mouse is hovering over text block 2')
 	})
+	$('.railRoad').mouseover(function () {
+    var $this = $(this);
+    var count = parseInt($this.data('count'), 10) + 1;
+    $this.data('count', count);
+    console.log($this.data('count'));
+});
+
+		
+	
 })
 
 

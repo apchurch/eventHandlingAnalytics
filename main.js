@@ -44,18 +44,7 @@ $(document).ready(function(){
 			
 
 
-    // var start
-    // Date.getTime = function(){
-    // 	for(i = 0; i < Date; i++)
-    // 		start = Date.getTime()
-    // 	$(window).unload(function(){
-    // 		end = Date.getTime()
-    // 		$.ajax({
-    // 			data: {'timeSpent': end - start}
-    		
-    // 		})
-    // 	}) 
-    // }   
+      
     $('#facebook').on('click', function(){
     	console.log('facebook link was clicked')
     })
@@ -105,10 +94,60 @@ $(document).ready(function(){
     $this.data('count', count);
     console.log($this.data('count'));
 });
-
-		
+	// var time = 0
+	// var running = 0
+	// startPause = function (){
+	// 	for(running == 0; running < 100; running++){
+	// 		increment()
+	// 	}
+	// }
+	// console.log(running)
 	
-})
+	// 	})
+	// reset = function() {
+	// 	running = 0
+	// 	time = 0
+	// 	}
+	// increment = function() {
+	// 	for(running == 0; running < 100; running++)
+	// 	setTimeout(function(){
+	// 		var mins = math.floor(time / 10 / 60)
+	// 		var secs = math.floor(time / 10)
+	// 		var tenths = time % 10
+	// 	}, 100)
+	
+
+// var start
+//     Date.getTime = function(){
+//     	for(i = 0; i < Date; i++)
+//     		start = Date.getTime()
+//     	$(window).load(function(){
+//     		end = Date.getTime()
+//     		$.ajax({
+//     			data: {'timeSpent': end - start}
+    		
+//     		})
+//     	}) 
+//     } 
+
+
+	// count = function(){
+	// 	$()
+	// }
+	// $('#google').load(function() {
+	// 	if($(this).hover(function(){
+	// 		$('#google').count(function(){
+
+	// 		})
+	// 	}))
+	// }
+	})
+
+
+	
+	
+	
+
 
 
 
